@@ -1,0 +1,61 @@
+
+ * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 0px;
+    }
+    
+    body {
+        background-color: #FFC133;
+    }
+    
+    .calculator {
+        max-width: 400px;
+        margin: 0px auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+    }
+    
+    .screen {
+        background-color: #000;
+        height: 70px;
+        grid-column: 1/5;
+        padding: 5px 10px 5px 10px;
+        font-size: 4rem;
+        color: #fff;
+        box-sizing: border-box;
+        text-align: right;
+        /* direction: rtl; */
+    }
+    
+    button {
+        padding: 15px;
+        font-size: 1.25rem;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+    
+    #equals {
+        grid-column: 4/5;
+        grid-row: 3/7;
+        background-color: #F67D4F;
+    }
+    
+    button:hover {
+        background-color: #ddd;
+    }
+   .hesapMakinesi {
+        max-width: 400px;
+        margin: 0px auto;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        
+    }
